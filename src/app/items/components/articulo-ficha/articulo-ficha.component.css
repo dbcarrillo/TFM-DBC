@@ -36,8 +36,6 @@
     padding: 0px 8px 0px 8px;
 }
 
-
-
 .data-container {
     display: flex;
     flex-direction: row;
@@ -51,8 +49,6 @@
     padding: 20px 0px;
     color: #3E48A8;
 }
-
-
 
 @media (max-width: 1000px) {
     .data-container {
@@ -71,7 +67,6 @@
 
     .event-box {
         width: 400px;
-
     }
 
     .event-box img {
@@ -85,16 +80,13 @@
 
     .event-container {
         display: block;
-
     }
 
     .event-box {
         width: 300px;
-
     }
 
     .event-box img {
         width: 300px;
-
     }
 }

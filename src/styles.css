@@ -5,6 +5,7 @@
     font-family: lato;
 }
 
+
 html,
 body {
     overflow-x: hidden;
@@ -17,18 +18,23 @@ body {
 }
 
 
-@media (max-width: 768px) {
-    .principal-container {
-        margin: 0px 20px 0px 20px;
-    }
-}
-
 .justify {
     text-align: justify;
 }
 
 a {
     text-decoration: none;
+}
+
+ol,
+ul {
+    padding-left: 0rem !important;
+}
+
+@media (max-width: 768px) {
+    .principal-container {
+        margin: 0px 20px 0px 20px;
+    }
 }
 
 /* Hero */

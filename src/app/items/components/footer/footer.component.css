@@ -50,6 +50,10 @@
     .social-icons i {
         padding: 5px;
     }
+
+    .fa-twitter {
+        padding: 0px;
+    }
 }
 
 li a:hover {

@@ -3,7 +3,5 @@
         <div><img [src]="articulos.imageUrl" alt="{{ articulos.name }}"></div>
         <h2>{{ articulos.name }}</h2>
         <p>{{ articulos.subtitulo }}</p>
-        <a routerLink="/articulo-ejemplo">
-            <button class="button">{{ articulos.link }}</button>
-        </a>
+        <button routerLink="/articulo-ejemplo" class="button">{{ articulos.link }}</button>
     </div>

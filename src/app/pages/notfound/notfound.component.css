@@ -26,10 +26,10 @@ p {
 }
 
 .notfound button {
-    width: 100%;
-    background-color: #ffffff;
+    width: 20%;
+    background-color: #3E48A8;
     border: none;
-    color: 3E48A8;
+    color: #ffffff;
     display: block;
     padding: 10px;
     margin-top: 15px;
