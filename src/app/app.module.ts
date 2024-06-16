@@ -16,6 +16,7 @@ import { OpcionesContactoComponent } from './items/components/opciones-contacto/
 import { TiburonFichaComponent } from './items/components/tiburon-ficha/tiburon-ficha.component';
 import { TiburonListaComponent } from './items/components/tiburon-lista/tiburon-lista.component';
 import { TomarAccionComponent } from './items/components/tomar-accion/tomar-accion.component';
+import { EstadoTiburonnPipe } from './pipes/estado-tiburonn.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TomarAccionComponent } from './items/components/tomar-accion/tomar-acci
     OpcionesContactoComponent,
     TiburonFichaComponent,
     TiburonListaComponent,
-    TomarAccionComponent
+    TomarAccionComponent,
+    EstadoTiburonnPipe
   ],
   imports: [
     BrowserModule,
