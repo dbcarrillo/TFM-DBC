@@ -17,6 +17,17 @@ import { TiburonFichaComponent } from './items/components/tiburon-ficha/tiburon-
 import { TiburonListaComponent } from './items/components/tiburon-lista/tiburon-lista.component';
 import { TomarAccionComponent } from './items/components/tomar-accion/tomar-accion.component';
 import { EstadoTiburonnPipe } from './pipes/estado-tiburonn.pipe';
+import { ArticuloEjemploComponent } from './pages/articulo-ejemplo/articulo-ejemplo.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { EventoEjemploComponent } from './pages/evento-ejemplo/evento-ejemplo.component';
+import { EventosComponent } from './pages/eventos/eventos.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NotfoundComponent } from './pages/notfound/notfound.component';
+import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
+import { TerminosCookiesPrivacidadComponent } from './pages/terminos-cookies-privacidad/terminos-cookies-privacidad.component';
+import { TiburonEjemploComponent } from './pages/tiburon-ejemplo/tiburon-ejemplo.component';
+import { TiburonpediaComponent } from './pages/tiburonpedia/tiburonpedia.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +45,18 @@ import { EstadoTiburonnPipe } from './pipes/estado-tiburonn.pipe';
     TiburonFichaComponent,
     TiburonListaComponent,
     TomarAccionComponent,
-    EstadoTiburonnPipe
+    EstadoTiburonnPipe,
+    ArticuloEjemploComponent,
+    BlogComponent,
+    ContactoComponent,
+    EventoEjemploComponent,
+    EventosComponent,
+    HomeComponent,
+    NotfoundComponent,
+    QuienesSomosComponent,
+    TerminosCookiesPrivacidadComponent,
+    TiburonEjemploComponent,
+    TiburonpediaComponent
   ],
   imports: [
     BrowserModule,

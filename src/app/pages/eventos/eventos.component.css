@@ -1,0 +1,76 @@
+/* EVENTOS */
+.event-container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event-box {
+    width: 450px;
+    text-align: left;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.event-box img {
+    width: 450px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.event-box h2 {
+    padding: 10px 0px 10px 0px;
+    color: #3E48A8;
+}
+
+.event-box-space {
+    padding: 10px 0px 10px 30px;
+}
+
+.event-box-space span {
+    padding: 5px 15px 15px 5px;
+}
+
+.event-container p {
+    text-align: justify;
+    margin-right: 30px;
+}
+
+@media (max-width: 980px) {
+    .event-container {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .event-box {
+        width: 600px;
+    }
+
+    .event-box p {
+        font-size: 10pt;
+        padding-right: 5px;
+    }
+
+    .event-box img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    .event-box {
+        width: 320px;
+    }
+
+    .event-box img {
+        width: 320px;
+    }
+}

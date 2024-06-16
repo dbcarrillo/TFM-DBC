@@ -1,0 +1,37 @@
+.notfound {
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #3E48A8;
+}
+
+.notfound i {
+    font-size: 100px;
+    color: #3E48A8;
+}
+
+.error-titular {
+    font-size: 100px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.notfound button {
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    color: 3E48A8;
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}

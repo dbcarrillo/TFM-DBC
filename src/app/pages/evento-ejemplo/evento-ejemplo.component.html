@@ -1,0 +1,69 @@
+<!-- Hero -->
+<section class="hero"
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../../assets/imgs/hero-2.png');">
+    <div class="hero-content">
+        <h1>Actividad pesquera
+        </h1>
+        <p>En este evento veremos la importancia de diferenciar unas prácticas de pesca sostenibles y aquellas que no lo
+            son</p>
+    </div>
+</section>
+
+<!-- Iconos Eventos -->
+<section class="principal-container">
+
+    <!-- Iconos Eventos -->
+    <h2>Actividad pesquera
+    </h2>
+    <br>
+    <div class="icons-eventdet">
+        <i class="fa-solid fa-location-dot">
+        </i><span>Gijón</span>
+        <br>
+        <i class="fa-regular fa-clock"></i><span>12:00</span>
+    </div>
+    <br>
+    <p>Para entender un problema, es realmente importante empezar por los causantes principales del mismo y por esa
+        razón, en este evento vamos a abordar de forma general en la introducción y con un grado de profundidad mayor
+        más adelante, qué es la <strong>actividad pesquera</strong>, cuantos tipos hay, cómo afectada cada uno de ellos
+        al tiburón y que medidas se están llevando a cabo para poder evitar el efecto negativo que su práctica está
+        causando a algunas especies.
+    </p>
+    <br>
+    <p>La actividad humana cuando hay intereses económicos de por medio muchas veces es llevada a cabo sin unos
+        criterios lógicos y límites que deberían imponerse, para dejar a un lado el beneficio como único fin y así
+        evitar problemas como los causados por la tan sonada, pero tan poco abordada, pesca accidental.
+    </p>
+    <p> En un emplazamiento tan especial como es Gijón, disfrutaremos de una interesante charla en la que además,
+        podremos ver de primera mano <strong>distintas técnicas de pesca</strong> en el puerto, todas ellas explicadas
+        por profesionales
+        que se han prestado no solo a realizar las explicaciones anteriormente nombradas sino que también a dar unas
+        pinceladas de cómo ellos en su día a día han reducido de forma notoria la pesca accidental. Unas sinergias
+        necesarias que llenan de esperanza a todos los que queremos cuidar del tiburón de la forma que sea.</p>
+    <br>
+
+    <picture class="img-eventdet">
+        <source srcset="../../../assets/imgs/eventodetalle-desktop.png" media="(min-width: 900px)" />
+        <source srcset="../../../assets/imgs/eventodetalle-mobile.png" media="(min-width: 700px)" />
+        <img src="../../../assets/imgs/eventodetalle-desktop.png" alt="Evento detalle" />
+    </picture>
+
+    <i>
+        <p class="leyendaimg">Restos de actividad pesquera no controlada en la playa</p>
+    </i>
+
+    <div class="maps" *ngIf="ocultar">
+        <h2>Localización</h2>
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92563.21539731696!2d-5.750854912358462!3d43.53152332086449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367c66cbf494bf%3A0xbd06d207048d3536!2sGij%C3%B3n%2C%20Asturias!5e0!3m2!1ses!2ses!4v1718478451968!5m2!1ses!2ses"
+            width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <button type="button" (click)="onclick()">
+        {{Mostrar?"Mostrar localización":"Ocultar"}}
+    </button>
+    <br><br>
+    <h2 style="text-align: center;">Contacta con nosotros</h2>
+    <app-form></app-form>
+</section>
