@@ -1,0 +1,23 @@
+/* Status */
+.status {
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.status1 {
+    padding-top: 10px;
+    font-weight: 800;
+    color: rgb(36, 176, 57);
+}
+
+.status2 {
+    padding-top: 10px;
+    font-weight: 800;
+    color: rgb(246, 100, 71);
+}
+
+.status3 {
+    padding-top: 10px;
+    font-weight: 800;
+    color: rgb(165, 28, 28);
+}

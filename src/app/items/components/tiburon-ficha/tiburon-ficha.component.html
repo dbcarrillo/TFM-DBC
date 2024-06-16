@@ -1,0 +1,10 @@
+<div class="shark-container">
+    <div class="shark-box">
+        <div><img [src]="tiburones.imageUrl" alt="{{ tiburones.name }}"></div>
+        <h2>{{ tiburones.name }}</h2>
+        <p class="status{{ tiburones.status}}">{{ tiburones.status | estadoTiburonn }}</p>
+        <a routerLink="/tiburon-ejemplo">
+            <button class="button">{{ tiburones.link }}</button>
+        </a>
+    </div>
+</div>

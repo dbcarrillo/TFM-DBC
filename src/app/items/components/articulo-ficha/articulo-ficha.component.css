@@ -1,0 +1,100 @@
+/* Caja Artículo */
+.event-container {
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px;
+}
+
+.title-shark {
+    text-align: center;
+    color: #3E48A8;
+    margin-top: 15px;
+}
+
+.event-box {
+    width: 300px;
+    text-align: center;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.event-box img {
+    width: 300px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.event-box h2 {
+    margin-top: 15px;
+    font-size: 25px;
+    padding: 0px 8px 0px 8px;
+}
+
+
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+.data-box i {
+    padding: 20px 0px;
+    color: #3E48A8;
+}
+
+
+
+@media (max-width: 1000px) {
+    .data-container {
+        gap: 30px;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .data-box i {
+        font-size: 32px;
+    }
+
+    .event-container {
+        display: block;
+        padding: 5px;
+    }
+
+    .event-box {
+        width: 400px;
+
+    }
+
+    .event-box img {
+        width: 400px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .event-container {
+        display: block;
+
+    }
+
+    .event-box {
+        width: 300px;
+
+    }
+
+    .event-box img {
+        width: 300px;
+
+    }
+}

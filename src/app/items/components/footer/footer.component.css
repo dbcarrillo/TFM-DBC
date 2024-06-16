@@ -1,0 +1,65 @@
+/* Footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32315F;
+    padding: 20px;
+    bottom: 0;
+    min-width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+/* Arreglo centrado logo */
+.logo {
+    padding-left: 50px;
+}
+
+.social-icons,
+.site-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.site-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.social-icons i {
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+
+    }
+
+    .logo {
+        padding: 2px;
+    }
+
+    .social-icons i {
+        padding: 5px;
+    }
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li a:active {
+    font-weight: 700;
+}
+
+.social-icons li:hover {
+    transform: scale(1.2);
+}

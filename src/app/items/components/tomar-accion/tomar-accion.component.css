@@ -1,0 +1,33 @@
+/* Saber más */
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.action-box {
+    width: 500px;
+    background-color: ffffff;
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid #3E48A8;
+}
+
+.action-box button {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.action-box h3 {
+    color: #3E48A8;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .action-box {
+        width: 350px;
+    }
+}

@@ -1,0 +1,33 @@
+<div class="form-box">
+    <form [formGroup]="formGroup" (ngSubmit)="enviarFormulario()">
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Nombre" formControlName="nombre">
+            <mat-error *ngIf="formGroup.get('nombre')!.hasError('required')">El nombre es obligatorio.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Teléfono" formControlName="telefono" maxlength="10">
+            <mat-error *ngIf="formGroup.get('telefono')!.hasError('required')">El teléfono es obligatorio.</mat-error>
+            <mat-error *ngIf="formGroup.get('telefono')!.hasError('minlength')">Ingresa un teléfono válido.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Correo electrónico" formControlName="correo">
+            <mat-error *ngIf="formGroup.get('correo')!.hasError('required')">El correo es obligatorio.</mat-error>
+            <mat-error *ngIf="formGroup.get('correo')!.hasError('pattern')">Ingresa un correo válido.</mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="full-width">
+            <input matInput placeholder="Consulta" formControlName="consulta">
+            <mat-error *ngIf="formGroup.get('consulta')!.hasError('required')">La consulta es obligatoria</mat-error>
+            <mat-error *ngIf="formGroup.get('consulta')!.hasError('maxlength')">La consulta es demasiado
+                larga</mat-error>
+        </mat-form-field>
+
+        <button mat-raised-button class="button" [disabled]="formGroup.invalid" type="submit">Saber más</button>
+        <br>
+        <div *ngIf="envioRealizado">El mensaje ha sido enviado correctamente</div>
+
+    </form>
+
+</div>
