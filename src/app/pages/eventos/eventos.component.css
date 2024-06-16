@@ -1,3 +1,10 @@
+.principal-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+}
+
+
 /* EVENTOS */
 .event-container {
     padding-top: 30px;
@@ -13,7 +20,6 @@
     text-align: left;
     background-color: #fbfbfb;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-
 }
 
 .event-box img {
@@ -46,32 +52,39 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-content: center;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 30px;
     }
 
     .event-box {
-        max-width: 600px;
+        max-width: 350px;
     }
 
-    .event-box p {
+    a .event-box p {
         font-size: 12pt;
         padding-right: 5px;
     }
 
     .event-box img {
-        max-width: 600px;
+        width: 350px;
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 500px) {
+    .principal-container {
+        padding: 0px 10px 0px 10px;
+    }
 
     .event-box {
-        max-width: 320px;
-        margin: 0 auto;
+        max-width: 300px;
+    }
+
+    .event-box p {
+        text-align: justify;
     }
 
     .event-box img {
-        max-width: 320px;
+        max-width: 300px;
     }
 }
