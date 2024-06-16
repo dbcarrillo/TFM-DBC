@@ -1,1 +1,235 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.principal-container {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+}
+
+
+@media (max-width: 768px) {
+    .principal-container {
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+.justify {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 5px 0px 50px 0px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        margin: 0px 20px 0px 20px;
+
+    }
+}
+
+/* Botones */
+.button {
+    width: 100%;
+    background-color: #3E48A8;
+    border: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.02);
+    background-color: #636fd7;
+}
+
+/* Titular sección */
+.general-sharkinfo li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.title-tiburonpedia {
+    padding-top: 50px;
+}
+
+/* Iconos Detalle */
+.icons-eventdet span {
+    padding: 15px 5px 0px 10px;
+}
+
+.icons-eventdet i {
+    margin-bottom: 10px;
+}
+
+.img-eventdet img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+/* Índice de contenidos */
+.index-content {
+    list-style-type: none;
+
+}
+
+.index-content a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.title-blog {
+    text-align: center;
+    margin: 40px 0px 5px 0px;
+}
+
+/* Alineamiento listas */
+
+.alineamiento-listas {
+    max-width: 1000px !important;
+    margin: 0 auto;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .alineamiento-listas {
+        margin: 0px 20px 0px 20px;
+
+    }
+}
+
+/* Alineamiento Tiburones */
+
+/* Caja Tiburón */
+.shark-container {
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.title-shark {
+    text-align: center;
+    color: #3E48A8;
+    margin-top: 15px;
+}
+
+.shark-box {
+    width: 300px;
+    text-align: center;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shark-box img {
+    width: 300px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.shark-box h2 {
+    margin-top: 15px;
+    font-size: 25px;
+    padding: 0px 8px 0px 8px;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+.data-box i {
+    padding: 20px 0px;
+    color: #3E48A8;
+}
+
+@media (max-width: 1000px) {
+    .shark-container {
+        display: block;
+        padding: 5px;
+    }
+
+    .shark-box {
+        width: 400px;
+
+    }
+
+    .shark-box img {
+        width: 400px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 768px) {
+    .data-container {
+        gap: 30px;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .data-box i {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .shark-box {
+        width: 300px;
+
+    }
+
+    .shark-box img {
+        width: 300px;
+
+    }
+}
